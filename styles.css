@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;;
+  background:  linear-gradient(to right,#3D0C11,#D80032);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.container{
+  width: 50%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+.topic-link{
+  color: #FFD700;
+  font-weight: bold;
+  text-decoration: none;
+}
+.topic-link:hover{
+  text-decoration: underline;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.highlight{
+  color: red;
+  font-weight: bold;
+}
+.header1{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: underline;
+}
+h1{
+  text-decoration: underline;
+}
+.spacer {
+    height: 20px; /* Adjust height as needed */
+}
+hr{
+  background: linear-gradient(to right,#3D0C11,#D80032);
+  border: 0px;
+  height: 5px;
+}
+/* Marquee Styles */
+.marquee {
+  overflow: hidden; /* Hides the overflowing content */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.marquee p {
+  display: inline-block; /* Allows the text to scroll in one line */
+  animation: scroll 20s linear infinite; /* Animation properties */
+  margin: 0; /* Remove default margin */
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%); /* Start from the right */
+  }
+  to {
+    transform: translateX(-100%); /* Move to the left */
+  }
