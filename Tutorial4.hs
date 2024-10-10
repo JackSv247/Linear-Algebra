@@ -5,7 +5,7 @@ import Data.List
 import Test.QuickCheck
 import Data.Ratio
 
-
+--HI
 -- 1. doubles
 -- a.
 
